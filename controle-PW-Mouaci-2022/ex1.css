@@ -31,9 +31,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 .EC1{
     border: lightsalmon solid 3px;
+    background-color: #8e8d8d;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,6 +50,7 @@
 }
 .EC2{
     border: springgreen solid 3px;
+    background-color: #8e8d8d;
     display: flex;
     flex-direction: column;
    align-items: center;
@@ -63,9 +66,26 @@
 .PC{
     width: 60%;
     border: lightskyblue solid 4px;
+ 
+}
+.ED{
+    height: 200px;
+    width: 250px;
+    background-color: lightgrey;
     display: flex;
-    justify-content: space-around;
-   
-    
-   
+    align-items: center;
+    flex-direction: column;
+}
+.T4{
+    background-color:#e3dfdf;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 70%;
+}
+.PD{
+    width: 100%;
+    border: green solid 4px;
+    text-align: right;
+
 }
