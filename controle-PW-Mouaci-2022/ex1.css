@@ -1,0 +1,38 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.EG{
+    height: 300px;
+    width: 200px;
+    background-color: lightgrey;
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.T1{
+    background-color:#e3dfdf;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 70%;
+}
+.EC{
+    height: 500px;
+    width: 700px;
+    background-color: gray;
+    border: dotted black; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.T2{
+    background-color: lightgrey;
+    height: 40px;
+    width: 45%;
+}
