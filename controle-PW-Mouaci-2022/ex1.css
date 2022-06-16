@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 } */
+
+.PP{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
 .EG{
     height: 300px;
     width: 200px;
@@ -15,7 +24,12 @@
     align-items: center;
     flex-direction: column;
 }
+.P1::first-letter{
+    font-size: 30px;
+}
 .T1{
+    border-bottom-style: outset;
+    border-left: black solid 1px;
     background-color:#e3dfdf;
     display: flex;
     justify-content: center;
@@ -26,7 +40,7 @@
     height: 500px;
     width: 700px;
     background-color: gray;
-    border: dotted black; 
+    border: dotted black 2px; 
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -34,10 +48,12 @@
     gap: 20px;
 }
 .EC1{
-    border: lightsalmon solid 3px;
-    background-color: #8e8d8d;
+    width: 90%;
+    background-color: #acabab;
+    border-top: black solid 1px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .T2{
@@ -47,13 +63,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .EC2{
-    border: springgreen solid 3px;
-    background-color: #8e8d8d;
+    width: 90%;
+    background-color: #acabab;
     display: flex;
     flex-direction: column;
    align-items: center;
+   border-bottom: black solid 1px;
+   
+   
     
 }
 .T3{
@@ -61,12 +81,13 @@
     display: flex;
     width: 100%;
    justify-content: flex-end;
-   border: tomato solid 4px;
+   margin-top: 10px;
 }
 .PC{
+    border-left: black solid 1px;
+   border-right: black solid 1px;
     width: 60%;
-    border: lightskyblue solid 4px;
- 
+ margin-bottom: 20px;
 }
 .ED{
     height: 200px;
@@ -75,17 +96,40 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-right: black solid 1px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
 }
 .T4{
     background-color:#e3dfdf;
+    border-bottom-style: outset;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 50px;
     width: 70%;
+    margin-top: 10px;
 }
 .PD{
     width: 100%;
-    border: green solid 4px;
     text-align: right;
-
+    
+}
+.EB{
+ background-color: lightgrey;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ border-left: black solid 1px;
+   border-right: black solid 1px;
+}
+.T5{
+    background-color: #e3dfdf;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-style: italic;
 }
