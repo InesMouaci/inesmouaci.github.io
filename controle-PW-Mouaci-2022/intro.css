@@ -1,0 +1,25 @@
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+.ET{
+    background-color: #72e3d2;
+    color: white;
+    width: 70%;
+}
+.photo{
+    width: 600px;
+    background: url("images/image2.png") no-repeat center/cover;
+}
+.texte{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+.PA{
+     color: white;
+
+     display: flex;
+     justify-content: flex-end;
+}
