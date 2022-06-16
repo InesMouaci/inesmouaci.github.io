@@ -30,9 +30,42 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+.EC1{
+    border: lightsalmon solid 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .T2{
     background-color: lightgrey;
     height: 40px;
     width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EC2{
+    border: springgreen solid 3px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.T3{
+    font-style: italic;
+    display: flex;
+    width: 100%;
+   justify-content: flex-end;
+   border: tomato solid 4px;
+}
+.PC{
+    width: 60%;
+    border: lightskyblue solid 4px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+   
 }
